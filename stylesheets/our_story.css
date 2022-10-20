@@ -1,0 +1,24 @@
+.story-main {
+  padding: 10px;
+}
+#story-hero {
+  display: flex;
+  justify-content: space-between;
+}
+#story-hero-content {
+  width: 50%;
+}
+#story-more {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#story-img {
+  max-width: 50%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  margin: 10px;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="description" content="Coffee Shop Website Built with basic HTML, CSS, and JavaScript">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Buzzing Brews</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../stylesheets/styles.css">
+        <link rel="stylesheet" href="./stylesheets/index.css"/>
+    </head>
+    <body>
+
+        <header class="header">
+            <div id="logo-branding">
+                <a href="/">
+                    <img src="./images/BB-logo.svg" class="logo"/>
+                </a>
+                <!-- <a href="/index.html">
+                    <h3 id="brand-name">Buzzing Brews Coffee</h3>
+                </a> -->
+            </div>
+
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="/">
+                            Home
+                        </a>
+                    </li>                    <li class="nav-item">
+                        <a href="/pages/menu.html">
+                            Menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/our_story.html">
+                            Our Story
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pages/gallery.html">
+                            Gallery
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-social-icons">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook"></i>                   
+                    <i class="fa fa-instagram"></i>
+                </div>
+                <button id="contact-btn">Contact Us</button>
+
+                <!-- <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> -->
+
+
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" id="hero-img"/>
+                <h1>Buzzing Brews</h1>
+                <p>One Line Description</p>
+            </section>
+            <section id="story-summary">
+                <h2>Our Story</h2>
+                <p>We serve coffee, but we’re not your typical coffee shop. Inspired by the great cafés of Europe, where conversation
+                blooms and writers, artists, activists and intellectuals make their mark, we’ve made a conscious decision to slow things
+                down. There’s no wifi, no television and no 30-minute maximum for our tables. Come and stay awhile.</p>
+            </section>
+
+            <section id="menu-summary">
+                <div id="menu-img-container">
+                    <img id="menu-img" src="https://images.unsplash.com/photo-1550991004-adb23f68241d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="an arm holding a coffee cup pouring steamed milk for latte art" />
+                    <figcaption>Photo sourced from <a href="https://unsplash.com">Unsplash</a></figcaption>
+                </div>
+                <div id="menu-details">
+                    <div id="menu-list">
+                        <h2>Coffee</h2>
+                        <h3>Espresso-Based Drinks</h3>
+                        <div class="menu-espresso">
+                            <ul class="menu-espresso-list">
+                                <li class="menu-item">Espresso</li>
+                                <li class="menu-price">$3.25</li>
+                                <li class="menu-item">Americano</li>
+                                <li class="menu-price">$3.50</li>
+                                <li class="menu-item">Macchiato</li>
+                                <li class="menu-price">$3.75</li>
+                                <li class="menu-item">Cortado</li>
+                                <li class="menu-price">$4.25</li>
+                            </ul>
+                        </div>
+                        <div class="menu-filter">
+                            <h3>Filter</h3>
+                            <ul class="menu-filter-list">
+                                <li class="menu-item">Drip</li>
+                                <li class="menu-price">$3.00</li>
+                                <li class="menu-item">Drip au Lait</li>
+                                <li class="menu-price">$3.25</li>
+                                <li class="menu-item">Pour Over</li>
+                                <li class="menu-price">$4.50</li>
+                            </ul>
+                        </div>
+                        <div class="menu-cold">
+                            <h3>Cold Coffee</h3>
+                            <ul class="menu-cold-list">
+                                <li class="menu-item">Cold Brew</li>
+                                <li class="menu-price">$4.00</li>
+                                <li class="menu-item">Iced Latte</li>
+                                <li class="menu-price">$5.25</li>
+                            </ul>
+                        </div>
+                        <div id="full-menu-link">
+                            <a href="/pages/menu.html">See Full Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="social-proof">
+                <h2 class="quote-content">“Hands down, the best coffee in the metro area, with the lines out the door to prove it.”</h2>
+                <p class="quote-source">— The Star-Review</p>
+            </section>
+
+            <section id="newsletter">
+                <img id="newsletter-img" src="https://images.unsplash.com/photo-1578678809532-6f0cbc85c59a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"/>
+                <div id="newsletter-details">
+                    <h2>Subscribe to our Mailing List</h2>
+                    <div id="newsletter-content">
+                        <p>Sign up and we’ll let you know about about tastings, seasonal menu changes and special events. We promise not to overload your inbox!</p>
+                        <div id="sign-up-fields">
+                            <input id="sign-up-email" name="sign-up-email" type="email" placeholder="Email Address" required />
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div id="footer-main">
+                <div id="footer-brand">
+                    <img class="logo" src="./images/BB-logo.svg" alt="logo"/>
+                    <div id="footer-address">
+                        <p>123 Demo Street</p>
+                        <p>Brooklyn, NY 12345</p>
+                    </div>
+                    <div id="footer-phone">
+                        <p>(555) 555-5555</p>
+                    </div>
+                </div>
+                <div id="footer-right">
+                    <div id="footer-social">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                    <div class="attribution">
+                        <small>Coded by <a href="" target="_blank">Erin Czarnecki</a></small>
+                        <small><a href="https://eldridge-fluid-demo.squarespace.com/" target="_blank">Inspiration from
+                                Squarespace</a></small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>
