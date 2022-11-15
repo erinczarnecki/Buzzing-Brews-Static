@@ -103,6 +103,15 @@
 padding: 10px 0px;
 }
 
+.menu-items>li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.menu-cat-title {
+  padding-bottom: 10px;
+}
 #social-proof {
   height: 60vh;
   text-align: center;
