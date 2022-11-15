@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../stylesheets/styles.css">
-    <link rel="stylesheet" href="../stylesheets/menu.css"/>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./menu.css" />
     <title>Buzzing Brews Menu</title>
 </head>
 
@@ -16,7 +16,7 @@
         <header class="header">
             <div id="logo-branding">
                 <a href="/">
-                    <img src="./images/BB-logo-white.png" class="logo" alt="Buzzing Brews Coffee Logo" />
+                    <img src="../images/BB-logo-white.png" class="logo" alt="Buzzing Brews Coffee Logo" />
                     </a>
                     </div>
                     
@@ -61,89 +61,143 @@
             <div class="menu--title">
                 <h1>Menu</h1>
             </div>
+            <div id="menu-container">
+                <div id="menu-left-container">
             <section id="menu--all-day">
                 <h2>All Day</h2>
-                <ul class="day-items">
-                    <li class="day--item">Avocado Toast</li>
-                    <li class="day--price">$8</li>
-                    <li class="day--item">Steel Cut Oats</li>
-                    <li class="day--price">$8</li>
-                    <li class="day--item">Toasted Croissant Sandwich</li>
-                    <li class="day--price">$16</li>
+                <ul class="day-items menu-item-list">
+                    <li class="day--item">Avocado Toast
+                        <span class="day--price">$8</span>
+                
+                    </li>
+                    <li class="day--item">Steel Cut Oats
+                        <span class="day--price">$8</span>
+                
+                    </li>
+                    <li class="day--item">Toasted Croissant Sandwich
+                        <span class="day--price">$16</span>
+                
+                    </li>
                 </ul>
             </section>
 
             <section id="menu--breakfast">
                 <h2>Breakfast</h2>
-                <ul class="breakfast-items">
-                    <li class="breakfast--item">Feta and Tomato Avocado Toast</li>
-                    <li class="breakfast--price">$8</li>
-                    <li class="breakfast--item">Ricotta, Poached Pear, and Honey Toast</li>
-                    <li class="breakfast--price">$8</li>
-                    <li class="breakfast--item">King Egg Sandwich</li>
-                    <li class="breakfast--price">$10</li>
-                    <li class="breakfast--item">Chia Seed Pudding with Forest Fruit (vegan)</li>
-                    <li class="breakfast--price">$12</li>
+                <ul class="breakfast-items menu-item-list">
+                    <li class="breakfast--item">Feta and Tomato Avocado Toast
+                        <span class="breakfast--price">$8</span>
+                
+                    </li>
+                    <li class="breakfast--item">Ricotta, Poached Pear, and Honey Toast
+                        <span class="breakfast--price">$8</span>
+                
+                    </li>
+                    <li class="breakfast--item">King Egg Sandwich
+                        <span class="breakfast--price">$10</span>
+                
+                    </li>
+                    <li class="breakfast--item">Chia Seed Pudding with Forest Fruit (vegan)
+                        <span class="breakfast--price">$12</span>
+                
+                    </li>
                 </ul>
             </section>
 
             <section id="menu--salad">
                 <h2>Salads</h2>
-                <ul class="salad-items">
-                    <li class="salad--item">Kale Salad</li>
-                    <li class="salad--price">$8</li>
-                    <li class="salad--item">Mediterranean Salad</li>
-                    <li class="salad--price">$8</li>
-                    <li class="salad--item">Faro Miso Bowl</li>
-                    <li class="salad--price">$9</li>
+                <ul class="salad-items menu-item-list">
+                    <li class="salad--item">Kale Salad
+                        <span class="salad--price">$8</span>
+                
+                    </li>
+                    <li class="salad--item">Mediterranean Salad
+                        <span class="salad--price">$8</span>
+                
+                    </li>
+                    <li class="salad--item">Faro Miso Bowl
+                        <span class="salad--price">$9</span>
+                
+                    </li>
                 </ul>
             </section>
+            </div>
+            <div id="menu-right-container">
 
             <section id="menu--coffee">
                 <h2>Coffee</h2>
-                <ul class="coffee-items">
-                    <li class="coffee--item">Espresso</li>
-                    <li class="coffee--price">$3.25</li>
-                    <li class="coffee--item">Americano</li>
-                    <li class="coffee--price">$3.50</li>
-                    <li class="coffee--item">Macchiato</li>
-                    <li class="coffee--price">$3.75</li>
-                    <li class="coffee--item">Cortado</li>
-                    <li class="coffee--price">$3.75</li>
-                    <li class="coffee--item">Flat Iron</li>
-                    <li class="coffee--price">$4.25</li>
-                    <li class="coffee--item">Cappuccino</li>
-                    <li class="coffee--price">$4.25</li>
-                    <li class="coffee--item">Latte</li>
-                    <li class="coffee--price">$4.75</li>
-                    <li class="coffee--item">Mocha</li>
-                    <li class="coffee--price">$5.50</li>
+                <ul class="coffee-items menu-item-list">
+                    <li class="coffee--item">Espresso
+                        <span class="coffee--price">$3.25</span>
+                
+                    </li>
+                    <li class="coffee--item">Americano
+                        <span class="coffee--price">$3.50</span>
+                
+                    </li>
+                    <li class="coffee--item">Macchiato
+                        <span class="coffee--price">$3.75</span>
+                
+                    </li>
+                    <li class="coffee--item">Cortado
+                        <span class="coffee--price">$3.75</span>
+                
+                    </li>
+                    <li class="coffee--item">Flat Iron
+                        <span class="coffee--price">$4.25</span>
+                
+                    </li>
+                    <li class="coffee--item">Cappuccino
+                        <span class="coffee--price">$4.25</span>
+                
+                    </li>
+                    <li class="coffee--item">Latte
+                    <li class="coffee--price">$4.75</span>
+                
+                    </li>
+                    <li class="coffee--item">Mocha
+                        <span class="coffee--price">$5.50</span>
+                
+                    </li>
                 </ul>
             </section>
 
             <section id="menu--tea">
                 <h2>Tea</h2>
-                <ul class="tea-items">
-                    <li class="tea--item">Loose-Leaf Tea</li>
-                    <li class="tea--price">$3.25</li>
-                    <li class="tea--item">Matcha Tea</li>
-                    <li class="tea--price">$5.00</li>
-                    <li class="tea--item">London Fog</li>
-                    <li class="tea--price">$4.75</li>
-                    <li class="tea--item">Chai Latte</li>
-                    <li class="tea--price">$4.75</li>
+                <ul class="tea-items menu-item-list">
+                    <li class="tea--item">Loose-Leaf Tea
+                        <span class="tea--price">$3.25</span>
+                
+                    </li>
+                    <li class="tea--item">Matcha Tea
+                        <span class="tea--price">$5.00</span>
+                
+                    </li>
+                    <li class="tea--item">London Fog
+                    <li class="tea--price">$4.75</span>
+                
+                    </li>
+                    <li class="tea--item">Chai Latte
+                        <span class="tea--price">$4.75</span>
+                
+                    </li>
                 </ul>
             </section>
             <section id="menu--specialty">
-                <h2>Tea</h2>
-                <ul class="specialty-items">
-                    <li class="specialty--item">Lemonade</li>
-                    <li class="specialty--price">$3.75</li>
-                    <li class="specialty--item">Cold Press Juice</li>
-                    <li class="specialty--price">$5.00</li>
+                <h2>Speciality Drinks</h2>
+                <ul class="specialty-items menu-item-list">
+                    <li class="specialty--item">Lemonade
+                        <span class="specialty--price">$3.75</span>
+                
+                    </li>
+                    <li class="specialty--item">Cold Press Juice
+                        <span class="specialty--price">$5.00</span>
+                
+                    </li>
 
                 </ul>
             </section>
+            </div>
+            </div>
 
         </main>
     

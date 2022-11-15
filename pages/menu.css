@@ -1,0 +1,32 @@
+.menu--title {
+    height: 15vh;
+    background-color: var(--text);
+    display: flex;
+    align-items: flex-end;
+    position: sticky;
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    padding: 10px;
+    font-size: 3rem;
+
+}
+
+#menu-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+#menu-container>div {
+    padding: 0 10px;
+}
+
+.menu-item-list>* {
+    padding: 10px 0;
+}
