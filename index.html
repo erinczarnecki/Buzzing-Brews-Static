@@ -19,31 +19,28 @@
         <header class="header">
             <div id="logo-branding">
                 <a href="/">
-                    <img src="./images/BB-logo.svg" class="logo"/>
+                    <img src="./images/BB-logo-white.png" class="logo" alt="Buzzing Brews Coffee Logo" />
                 </a>
-                <!-- <a href="/index.html">
-                    <h3 id="brand-name">Buzzing Brews Coffee</h3>
-                </a> -->
             </div>
 
             <nav class="nav-menu">
                 <ul class="nav-links">
                     <li class="nav-item">
-                        <a href="/">
+                        <a href="/" class="nav-link">
                             Home
                         </a>
                     </li>                    <li class="nav-item">
-                        <a href="/pages/menu.html">
+                        <a href="/pages/menu.html" class="nav-link">
                             Menu
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/pages/our_story.html">
+                        <a href="/pages/our_story.html" class="nav-link">
                             Our Story
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/pages/gallery.html">
+                        <a href="/pages/gallery.html" class="nav-link">
                             Gallery
                         </a>
                     </li>
@@ -67,13 +64,17 @@
 
         <main>
             <section id="hero">
-                <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" id="hero-img"/>
-                <h1>Buzzing Brews</h1>
-                <p>One Line Description</p>
+                <div id="hero-img">
+                    <div id="hero-text">
+                        <h1>Buzzing Brews</h1>
+                        <p>Organic Coffee and Small Dishes</p>
+                        </div>
+                        </div>
             </section>
             <section id="story-summary">
-                <h2>Our Story</h2>
-                <p>We serve coffee, but we’re not your typical coffee shop. Inspired by the great cafés of Europe, where conversation
+                <h2 id="story-title">Our Story</h2>
+                <p id="story-text">We serve coffee, but we’re not your typical coffee shop. Inspired by the great cafés of Europe, where
+                    conversation
                 blooms and writers, artists, activists and intellectuals make their mark, we’ve made a conscious decision to slow things
                 down. There’s no wifi, no television and no 30-minute maximum for our tables. Come and stay awhile.</p>
             </section>
@@ -85,9 +86,9 @@
                 </div>
                 <div id="menu-details">
                     <div id="menu-list">
-                        <h2>Coffee</h2>
-                        <h3>Espresso-Based Drinks</h3>
+                        <h2 id="menu-title">Coffee</h2>
                         <div class="menu-espresso">
+                        <h3>Espresso-Based Drinks</h3>
                             <ul class="menu-espresso-list">
                                 <li class="menu-item">Espresso</li>
                                 <li class="menu-price">$3.25</li>
@@ -134,12 +135,12 @@
             <section id="newsletter">
                 <img id="newsletter-img" src="https://images.unsplash.com/photo-1578678809532-6f0cbc85c59a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"/>
                 <div id="newsletter-details">
-                    <h2>Subscribe to our Mailing List</h2>
+                    <h2 id="newsletter-title">Subscribe to our Mailing List</h2>
                     <div id="newsletter-content">
                         <p>Sign up and we’ll let you know about about tastings, seasonal menu changes and special events. We promise not to overload your inbox!</p>
                         <div id="sign-up-fields">
                             <input id="sign-up-email" name="sign-up-email" type="email" placeholder="Email Address" required />
-                            <button>Sign Up</button>
+                            <button id="sign-up-btn">Sign Up</button>
                         </div>
                     </div>
                 </div>
